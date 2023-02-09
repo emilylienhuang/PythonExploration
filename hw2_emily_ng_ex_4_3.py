@@ -35,7 +35,7 @@ def main():
 
         while user_ans in prior_guesses:
             user_ans = random.randint(lower_bound, upper_bound)
-            
+
         prior_guesses.append(user_ans)
 
         print(user_ans)

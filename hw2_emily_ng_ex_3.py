@@ -66,7 +66,7 @@ def main():
 
     #11. Write a function strList that takes the current list and returns all the items separated by a comma and a space and an and before the last item
     def strList(list):
-        print(", ".join(list[i] for i in range(len(list))), end = '')
+        print(", ".join(list[i] for i in range(len(list)-1)), end = '')
         print(' and ' + list[-1])
 
     strList((purse_contents))
